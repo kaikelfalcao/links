@@ -14,9 +14,9 @@
         }
     </style>
 </head>
-<body class="bg-gray-200 dark:bg-black overflow-hidden">
-    <main class="flex flex-col min-h-screen items-center justify-center">
-        <button id="darkModeToggle" class="py-2 text-black dark:text-white">
+<body class="flex min-h-screen bg-gray-200 dark:bg-black">
+    <main class="flex flex-col flex-grow items-center mt-14">
+        <button id="darkModeToggle" class="py-2 px-5 text-black dark:text-white border border-gray-400 rounded-full dark:hover:bg-yellow-500 hover:bg-purple-500 shadow hover:shadow-lg transition-all">
             <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
             </svg>
@@ -24,16 +24,16 @@
                 <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
             </svg>
         </button>
-        <header class="px-5 py-10 text-center">
+        <header class="py-10 text-center">
             <img class="rounded-2xl mx-auto mb-3 size-48" src="https://github.com/kaikelfalcao.png" alt="Foto de perfil GitHub">
             <h1 class="font-bold dark:text-white text-black text-2xl">Kaike Lima Falcão de Oliveira</h1>
-            <span class="dark:text-white text-black text-xl mt-12">Fullstack Junior Developer</span>
+            <span class="dark:text-white text-black text-xl">Junior Full Stack Developer</span>
         </header>
         <article class="py-5 space-y-5 w-full max-w-md px-2 text-white">
             <a 
                 href="https://www.linkedin.com/in/kaikefalcao/"
                 target="_blank"
-                class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-blue-700 dark:to-blue-500 dark:hover:from-blue-500 dark:hover:to-blue-300"
+                class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-yellow-700 dark:to-yellow-500 dark:hover:from-yellow-500 dark:hover:to-yellow-300"
             >
                 <button class="h-12 flex-1 font-bold flex justify-between items-center">
                     <span class="ml-4">
@@ -49,7 +49,7 @@
             <a
                     href="https://github.com/kaikelfalcao"
                     target="_blank"
-                    class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-blue-700 dark:to-blue-500 dark:hover:from-blue-500 dark:hover:to-blue-300"
+                    class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-yellow-700 dark:to-yellow-500 dark:hover:from-yellow-500 dark:hover:to-yellow-300"
             >
                 <button class="h-12 flex-1 font-bold flex justify-between items-center">
                     <span class="ml-4">
@@ -65,7 +65,7 @@
             <a
                     href="https://twitter.com/kaikelime"
                     target="_blank"
-                    class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-blue-700 dark:to-blue-500 dark:hover:from-blue-500 dark:hover:to-blue-300"
+                    class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-yellow-700 dark:to-yellow-500 dark:hover:from-yellow-500 dark:hover:to-yellow-300"
             >
                 <button class="h-12 flex-1 font-bold flex justify-between items-center">
                     <span class="ml-4">
@@ -81,7 +81,7 @@
             <a
                     href="mailto:kaikelfalcao@gmail.com"
                     target="_blank"
-                    class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-blue-700 dark:to-blue-500 dark:hover:from-blue-500 dark:hover:to-blue-300"
+                    class="rounded-lg mx-2 flex bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-300 dark:from-yellow-700 dark:to-yellow-500 dark:hover:from-yellow-500 dark:hover:to-yellow-300"
             >
                 <button class="h-12 flex-1 font-bold flex justify-between items-center">
                     <span class="ml-4">
@@ -96,9 +96,9 @@
                 </button>
             </a>
         </article>
-        <p class="mt-12 text-base text-gray-600 dark:text-gray-400">
-            © 2024 Made with Tailwindcss.
-        </p>
+        <footer class="mt-auto mb-6 text-base text-gray-600 dark:text-gray-400">
+            © 2024 Made with TailwindCSS.
+        </footer>
     </main>
     <script>
         tailwind.config = {
